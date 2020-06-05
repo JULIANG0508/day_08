@@ -1,0 +1,38 @@
+#name: "lili"
+
+#data:
+#  name: "lili"
+#  pwd: "1234"
+
+#data2:
+#  - "lili"
+#  - "nana"
+#
+
+
+#data3: ["lili","nana"]
+
+#data4:
+#  - name: "lili"
+#  - pwd: "1234"
+
+#info: &data
+#  name: "lili"
+#  phone: "13333333333"
+#
+#addr:
+#  <<: *data
+#  detail: "航渡路18号"
+
+
+test_001:
+  input: "1"
+  exp: "休眠"
+
+test_002:
+  input: "i"
+  exp: "IP地址"
+
+test_003:
+  input: "m"
+  exp: "MAC地址"
